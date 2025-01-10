@@ -1,0 +1,114 @@
+.pricing {
+    width: 97%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+}
+
+.pricing h1 {
+    font-weight: 500;
+    font-size: 3.75rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.pricing .services {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: auto;
+}
+
+.services .services-contents {
+    width: 31%;
+    flex: 1 1 30%;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    background: transparent;
+    color: #fff;
+    border: 0.7px solid rgb(65, 65, 65);
+    border-radius: 0.75rem;
+    margin: auto;
+}
+
+.services .services-contents .title {
+    font-size: 2.25rem;
+    font-weight: inherit;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.services .services-contents .title span {
+    font-size: 1.75rem;
+    margin-left: 0.5rem;
+    background: linear-gradient(to right, #ff9900, #991b1b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services .services-contents .price {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.services .services-contents .price span {
+    color: #9f9f9f;
+    font-size: 1.5rem;
+    margin-left: -0.5rem;
+    
+}
+
+.services .services-contents .service-list .service-item {
+    display: flex;
+    justify-content: left;
+    margin-top: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    
+}
+
+.services .services-contents .service-list .service-item i >*{
+    width: 2rem;
+    height: 2rem;
+}
+
+.services .services-contents .service-list .service-item p {
+    justify-self: left;
+    margin-left: 1rem;
+}
+
+.services .services-contents button {
+    margin: 3rem auto;
+    width: 100%;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    border: solid 1px #7d2d12;
+    border-radius: 0.5rem;
+    background: transparent;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.services .services-contents button:hover {
+    background: #7d2d12;
+}
+
+@media (max-width: 960px) {
+    .pricing h1 {
+        font-size: 2.85rem;
+    }
+
+    .pricing .services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services .services-contents {
+        width: 85%;
+        margin: auto;
+    }
+
+} 

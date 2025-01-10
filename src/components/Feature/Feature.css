@@ -1,0 +1,112 @@
+.feature {
+    width: 97%;
+    margin: auto;
+    border-bottom: 0.6px solid rgba(128, 128, 128, 0.8);
+}
+
+.feature .feature-heading {
+    background-color: #1c1c1c;
+    width: 10%;
+    height: inherit;
+    padding: 0.25rem 0.75rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4rem;
+    border: none;
+    border-radius: 9rem;
+
+}
+
+.feature .feature-heading h4{
+    color: rgb(253, 118, 24);
+    font-weight: 500;
+}
+
+
+.feature .sub-heading{
+    margin-bottom: 4rem;
+}
+
+.feature .sub-heading h1 {
+    font-size: 4.5rem;
+    margin: 4rem 0 2rem 0;
+    line-height: 1;
+    text-align: center;
+    font-weight: 500;
+}
+
+.feature .sub-heading h1 span {
+    background: linear-gradient(to right, #ff9900, #991b1b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature-items {
+  width: 97%;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  gap: 2rem; 
+  margin: 0 auto; 
+  padding: 10px; 
+}
+
+
+.feature-items .feature-div {
+  flex: 1 1 30%; 
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  box-sizing: border-box; 
+  padding: 0.75rem;
+
+}
+
+
+.feature-items .feature-div  .icon {
+    height: 2rem;
+    width: 5rem;
+    padding: 0.5rem;
+    background: #1c1c1c;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.feature-items .feature-div .icon > * {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #bd3f0b;
+    
+}
+
+.feature-items .feature-div .ftr-heading {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    font-weight: inherit;
+}
+
+.feature-items .feature-div .ftr-text {
+    color: #717171;
+    line-height: inherit;
+    margin-bottom: 3rem;
+    font-size: 1.01rem;
+}
+
+@media (max-width: 960px) {
+    .feature .sub-heading h1 {
+        font-size: 3.2rem;
+        margin: 4rem 0 2rem 0;
+        line-height: 1;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .feature-items {
+        width: 97%;
+        display: flex;
+        flex-direction: column;
+      }
+
+} 

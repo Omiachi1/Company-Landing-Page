@@ -1,0 +1,52 @@
+.footer {
+    width: 97%;
+    margin: 3rem auto;
+}
+
+.footer .footer-links {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer .footer-links .resources, 
+.footer .footer-links .platform, 
+.footer .footer-links .community {
+    flex-basis: 34%;
+    padding: 1.25rem;
+    line-height: 1.8;
+}
+
+.footer .footer-links .resources h4,
+.footer .footer-links .platform h4, 
+.footer .footer-links .community h4 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+}
+
+.footer .footer-links .resources a,
+.footer .footer-links .platform a, 
+.footer .footer-links .community a{
+    font-size: 1rem;
+    color: #d5d5d5;
+} 
+
+.footer .footer-links .resources a:hover,
+.footer .footer-links .platform a:hover, 
+.footer .footer-links .community a:hover{
+    font-size: 1rem;
+    color: #d5d5d5;
+    opacity: 2;
+} 
+
+@media (max-width: 960px) {
+    .footer .footer-links{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+
+} 
