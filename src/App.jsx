@@ -4,7 +4,7 @@ import MobileNav from './components/Navbar/MobileNav';
 import Home from './components/Home/Home';
 import Feature from './components/Feature/Feature';
 import Workflow from './components/Workflow/Workflow';
-import Pricing from './components/Pricing/pricing';
+import Pricing from './components/Pricing/Pricing';
 import Testimonial from './components/Testimonial/Testimonial';
 import Footer from './components/Footer/Footer';
 

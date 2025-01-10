@@ -19,7 +19,7 @@ const MobileNav = () => {
         </div>
 
         <div className="mobile-navbar-toggle" onClick={toggleNavbar}>
-          {mobileDrawerOpen ? <X/> : <Menu />}
+          {mobileDrawerOpen ? <X/> : <Menu/>}
         </div>
       </div>
 
@@ -33,11 +33,11 @@ const MobileNav = () => {
                 <li><a href="#testimonial">Testimonials</a></li>
             </ul>
           </ul>
-
           <div className="mobile-navbar-actions">
             <a href="#" className="mobile-sign-in">
               Sign In
             </a>
+            
             <a href="#" className="mobile-sign-up">
               Create an account
             </a>
